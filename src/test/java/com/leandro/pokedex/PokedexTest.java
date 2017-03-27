@@ -10,7 +10,7 @@ import org.junit.Test;
 public class PokedexTest {
 
 	@Test
-	public void helloWord() {
+	public void happyDay() {
 		Pokemon pokemon = new Pokedex().search(10, "");
 		
 		assertNotNull(pokemon.getName());
